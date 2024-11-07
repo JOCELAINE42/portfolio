@@ -1,0 +1,116 @@
+section {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#img_print {
+    width: 35%;
+    height: 100%;
+
+}
+
+#textos_prin {
+    width: 30%;
+    height: 70%;
+  
+
+}
+
+#nome {
+   
+    width: 60%;
+    height: 37%;
+
+    font-size:8vw ;
+    font-family:"Nanum Myeongjo" ;
+    color:#333333 ;
+   
+
+}
+
+#sobrenome {
+   
+    width: 100%;
+    height: 37%;
+
+    font-size:8vw ;
+    font-family:"Nanum Myeongjo" ;
+    color:#333333 ;
+
+}
+
+#descricao {
+    width: 100%;
+    height: 26%;
+    font-size: 1.05vw ;
+    font-family:"Arima" ;
+    color:#333333 ;
+  
+}
+
+#imagem{
+    position: absolute;
+    z-index: -1;
+    top: 10vh;
+    left: 10vw;
+    width: auto;
+    height:42vw ;
+}
+@media (max-width: 480px) {
+    section {
+        flex-direction: column; /* Alterar para coluna em telas pequenas */
+        align-items: flex-start; /* Alinhar à esquerda */
+        padding: 10px; /* Adicionar padding */
+    }
+
+    #img_print {
+        width: 90%; /* Aumentar a largura da imagem */
+        height: 10%; /* Manter a proporção */
+        align-items: center;
+        top: 50vh;
+        left: 50vw;
+    }
+
+    #textos_prin {
+        width: 100%; /* Ocupa toda a largura */
+        height: 100%; /* Ajustar altura para o conteúdo */
+        top: 80vh;
+        left: 80vw;
+    }
+
+    #nome{
+        height: 8%;
+    }
+    #sobrenome{
+        height: 66%;
+    }
+
+    #nome,
+    #sobrenome {
+        font-size: 10vw; /* Aumentar o tamanho da fonte em dispositivos pequenos */
+        top: 30vh; /* Ajustar a posição */
+        left: 20; /* Centralizar horizontalmente */
+        align-items:center;
+        position:static;
+        align-items: flex-end;
+    }
+
+
+    #descricao {
+        font-size: 4vw; /* Aumentar o tamanho da descrição */
+    }
+
+    #imagem {
+        width: 80%; /* Ajustar a largura da imagem de fundo */
+        height: auto; /* Manter a proporção */
+        top: 30vh; /* Ajustar a posição */
+        left: 50; /* Centralizar horizontalmente */
+        align-items: center;
+    }
+}

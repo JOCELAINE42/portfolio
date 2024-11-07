@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nanum+Myeongjo&display=swap');
+@import url(./header.css);
+@import url(./section.css);
+@import url(./footer.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+/*
+#E6BA9D  -  rosinha
+#BD5675  -  rosa
+#6455A4  -  roxo  
+#FFFFFF  -  branco
+#333333  -  cinza
+
+fonte principal  -  "Arima"
+fonte secundaria  - "Nanum Myeongjo"
+*/
